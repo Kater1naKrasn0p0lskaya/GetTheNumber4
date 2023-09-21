@@ -5,10 +5,11 @@ public class Main {
     private static boolean gameProcess = true;
 
     public static void main(String[] args) {
-        System.out.println("приветик!");
+        System.out.println("приветик!"
+        );
         do {
             beginning();
-
+            playAgain();
         } while (gameProcess);
     }
 
